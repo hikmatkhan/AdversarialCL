@@ -14,7 +14,7 @@ from utils import fix_seeds, init_wandb, get_args
 import os
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 # For multiple devices (GPUs: 4, 5, 6, 7)
-os.environ["CUDA_VISIBLE_DEVICES"] = "7"
+os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 
 if __name__ == '__main__':
     # Initial setup

@@ -109,7 +109,7 @@ def get_args(argv):
     parser.add_argument('--lr', type=float, default=0.01, help="Learning rate")
     parser.add_argument('--momentum', type=float, default=0)
     parser.add_argument('--weight_decay', type=float, default=0)
-    parser.add_argument('--schedule', nargs="+", type=int, default=[10000],
+    parser.add_argument('--schedule', nargs="+", type=int, default=[100000],
                         help="The list of epoch numbers to reduce learning rate by factor of 0.1. Last number is the end epoch")
 
     parser.add_argument('--print_freq', type=float, default=25, help="Print the log at every x iteration")
